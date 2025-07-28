@@ -225,7 +225,7 @@ msgstr ""
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/activity_statement_xlsx.py:0
-#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 msgid "Aging Report at %(end)s in %(currency)s"
 msgstr ""
 
@@ -245,7 +245,7 @@ msgstr ""
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
-#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
 msgid "Balance"
 msgstr ""
@@ -299,7 +299,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
-#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
 #: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
 msgid "Date"
@@ -323,7 +323,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
-#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 msgid "Date:"
 msgstr ""
 
@@ -331,7 +331,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
-#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
 #: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
 msgid "Description"
@@ -394,7 +394,7 @@ msgstr ""
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
-#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
 msgid "Due Date"
 msgstr ""
@@ -413,7 +413,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
-#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
 #: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
 msgid "Ending Balance"
@@ -513,7 +513,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
-#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
 #: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
 msgid "Open Amount"
@@ -522,7 +522,7 @@ msgstr ""
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
-#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
 msgid "Original"
 msgstr ""
@@ -536,7 +536,7 @@ msgstr ""
 
 #. module: partner_statement
 #. odoo-python
-#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 #: model:ir.actions.report,name:partner_statement.action_print_outstanding_statement
 #: model:ir.actions.report,name:partner_statement.action_print_outstanding_statement_html
 #: model_terms:ir.ui.view,arch_db:partner_statement.res_config_settings_view_form
@@ -623,7 +623,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
-#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 msgid "Reference Number"
 msgstr ""
 
@@ -694,7 +694,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
-#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 msgid "Statement from:"
 msgstr ""
 
@@ -709,7 +709,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
-#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 msgid "Statement of Account from %s"
 msgstr ""
 
@@ -717,7 +717,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
-#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 msgid "Statement to:"
 msgstr ""
 
@@ -773,7 +773,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
-#: code:addons/partner_statement/report/outstanting_statement_xlsx.py:0
+#: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 msgid "VAT:"
 msgstr ""
 
