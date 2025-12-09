@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-16 08:14+0000\n"
-"PO-Revision-Date: 2022-06-16 11:05+0000\n"
-"Last-Translator: jabelchi <jabelchi@gmail.com>\n"
+"PO-Revision-Date: 2025-12-09 14:28+0000\n"
+"Last-Translator: Ricard <ricard.calvo@forgeflow.com>\n"
 "Language-Team: Catalan (https://www.transifex.com/oca/teams/23907/ca/)\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #. module: account_financial_report
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_aged_partner_balance_lines_header
@@ -1677,8 +1677,8 @@ msgid ""
 "The Company in the Trial Balance Report Wizard and in Date Range must be the "
 "same."
 msgstr ""
-"La empresa al balan?? de sumes i saldos i al rang de dates ha de ser la "
-"mateixa."
+"La companyia de l'informe del balanç de sumes i saldos i la del rang de "
+"dates han de ser la mateixa."
 
 #. module: account_financial_report
 #. odoo-python
@@ -1735,7 +1735,7 @@ msgstr "Total"
 #: model:ir.actions.report,name:account_financial_report.action_report_trial_balance_qweb
 #: model:ir.ui.menu,name:account_financial_report.menu_trial_balance_wizard
 msgid "Trial Balance"
-msgstr "Balan?? de sumes i saldos"
+msgstr "Balanç de sumes i saldos"
 
 #. module: account_financial_report
 #: model_terms:ir.ui.view,arch_db:account_financial_report.report_trial_balance_base
