@@ -6,7 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2026-01-18 19:50+0000\n"
+"Last-Translator: Matjaz Mozetic <matjaz@luxim.si>\n"
 "Language-Team: none\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -14,60 +15,61 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/report_statement_common.py:0
 msgid "1 - 30 Days"
-msgstr ""
+msgstr "1 - 30 dni"
 
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/report_statement_common.py:0
 msgid "1 Month"
-msgstr ""
+msgstr "1 mesec"
 
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/report_statement_common.py:0
 msgid "121 Days +"
-msgstr ""
+msgstr "121 dni +"
 
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/report_statement_common.py:0
 msgid "2 Months"
-msgstr ""
+msgstr "2 meseca"
 
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/report_statement_common.py:0
 msgid "3 Months"
-msgstr ""
+msgstr "3 meseci"
 
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/report_statement_common.py:0
 msgid "31 - 60 Days"
-msgstr ""
+msgstr "31 - 60 dni"
 
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/report_statement_common.py:0
 msgid "4 Months"
-msgstr ""
+msgstr "4 meseci"
 
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/report_statement_common.py:0
 msgid "61 - 90 Days"
-msgstr ""
+msgstr "61 - 90 dni"
 
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/report_statement_common.py:0
 msgid "91 - 120 Days"
-msgstr ""
+msgstr "91 - 120 dni"
 
 #. module: partner_statement
 #: model_terms:ir.ui.view,arch_db:partner_statement.statement_common_view
@@ -77,6 +79,12 @@ msgid ""
 "                        buckets, so the partner can review how much is open, due or overdue.\n"
 "                    </span>"
 msgstr ""
+"<span class=\"o_form_label\">V poročilu so lahko prikazane podrobnosti o "
+"zapadlih\n"
+"                        postavkah\n"
+"                        izraženih po obdobjih zapadlosti, tako, da partner "
+"lahko pregleda koliko je odprto in zapadlo.\n"
+"                    </span>"
 
 #. module: partner_statement
 #: model_terms:ir.ui.view,arch_db:partner_statement.activity_statement_wizard_view
@@ -92,6 +100,19 @@ msgid ""
 "                <br/>\n"
 "                <br/>"
 msgstr ""
+"<span class=\"o_form_label\">Kartica partnerja poda podrobnosti vseh "
+"dejavnosti na \n"
+"                    partnerjevih terjatvah in obveznostih v časovnem "
+"obdobju. To vključuje vse račune, \n"
+"                    dobropise, in plačila. \n"
+"                    Vsako odprto stanje iz predhodnih obdobij bo prikazano "
+"kot prenos stanja \n"
+"                    na vrhu izpisa. \n"
+"                    Seznam je prikazan v kronološkem vrstnem redu in \n"
+"                    razdeljen po valutah. \n"
+"                </span>\n"
+"                <br/>\n"
+"                <br/>"
 
 #. module: partner_statement
 #: model_terms:ir.ui.view,arch_db:partner_statement.detailed_activity_statement_wizard_view
@@ -104,6 +125,16 @@ msgid ""
 "                <br/>\n"
 "                <br/>"
 msgstr ""
+"<span class=\"o_form_label\">Detajlna kartica prometa in stanja je "
+"razširitev\n"
+"                    kartice partnerja in je namenjeno pojasnjevanju "
+"transakcij,\n"
+"                    ki so se zgodile v obdobju, ter vsebuje tudi razdelek "
+"Predhodno stanje\n"
+"                    in razdelek Končno stanje.\n"
+"                </span>\n"
+"                <br/>\n"
+"                <br/>"
 
 #. module: partner_statement
 #: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_statement_wizard_view
@@ -119,34 +150,47 @@ msgid ""
 "                <br/>\n"
 "                <br/>"
 msgstr ""
+"<span class=\"o_form_label\">Izpis odprtih postavk vsebuje podrobnosti o "
+"vseh\n"
+"                    neporavnanih\n"
+"                    terjatvah in obveznostih partnerja do določenega datuma. "
+"To vključuje vse neplačane\n"
+"                    račune, ne prevzete\n"
+"                    dobropise in neporavnane plačila. Seznam je prikazan v "
+"kronološkem vrstnem redu\n"
+"                    in je\n"
+"                    razdeljen po valutah.\n"
+"                </span>\n"
+"                <br/>\n"
+"                <br/>"
 
 #. module: partner_statement
 #: model_terms:ir.ui.view,arch_db:partner_statement.activity_statement_document
 #: model_terms:ir.ui.view,arch_db:partner_statement.detailed_activity_statement_document
 #: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_statement_document
 msgid "<strong>Date:</strong>"
-msgstr ""
+msgstr "<strong>Datum:</strong>"
 
 #. module: partner_statement
 #: model_terms:ir.ui.view,arch_db:partner_statement.activity_statement_document
 #: model_terms:ir.ui.view,arch_db:partner_statement.detailed_activity_statement_document
 #: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_statement_document
 msgid "<strong>Partner Code:</strong>"
-msgstr ""
+msgstr "<strong>Koda partnerja:</strong>"
 
 #. module: partner_statement
 #: model_terms:ir.ui.view,arch_db:partner_statement.activity_statement_document
 #: model_terms:ir.ui.view,arch_db:partner_statement.detailed_activity_statement_document
 #: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_statement_document
 msgid "<strong>Partner Name:</strong>"
-msgstr ""
+msgstr "<strong>Naziv partnerja:</strong>"
 
 #. module: partner_statement
 #: model_terms:ir.ui.view,arch_db:partner_statement.activity_statement_document
 #: model_terms:ir.ui.view,arch_db:partner_statement.detailed_activity_statement_document
 #: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_statement_document
 msgid "<strong>The partner doesn't have due entries.</strong>"
-msgstr ""
+msgstr "<strong>Partner nima zapadlih postavk.</strong>"
 
 #. module: partner_statement
 #: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__account_type
@@ -154,7 +198,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__account_type
 #: model:ir.model.fields,field_description:partner_statement.field_statement_common_wizard__account_type
 msgid "Account Type"
-msgstr ""
+msgstr "Tip konta"
 
 #. module: partner_statement
 #: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__excluded_accounts_selector
@@ -162,7 +206,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__excluded_accounts_selector
 #: model:ir.model.fields,field_description:partner_statement.field_statement_common_wizard__excluded_accounts_selector
 msgid "Accounts to exclude"
-msgstr ""
+msgstr "Konti za izločitev"
 
 #. module: partner_statement
 #. odoo-python
@@ -170,32 +214,32 @@ msgstr ""
 #: model:ir.actions.report,name:partner_statement.action_print_activity_statement
 #: model:ir.actions.report,name:partner_statement.action_print_activity_statement_html
 msgid "Activity Statement"
-msgstr ""
+msgstr "Kartica kupca"
 
 #. module: partner_statement
 #: model:ir.model,name:partner_statement.model_activity_statement_wizard
 msgid "Activity Statement Wizard"
-msgstr ""
+msgstr "Čarovnik za izpis kartice"
 
 #. module: partner_statement
 #: model:ir.model,name:partner_statement.model_report_p_s_report_activity_statement_xlsx
 msgid "Activity Statement XLSL Report"
-msgstr ""
+msgstr "Izpis kartice XLSX"
 
 #. module: partner_statement
 #: model:ir.actions.report,name:partner_statement.action_print_activity_statement_xlsx
 msgid "Activity Statement XLSX"
-msgstr ""
+msgstr "Izpis kartice XLSX"
 
 #. module: partner_statement
 #: model_terms:ir.ui.view,arch_db:partner_statement.res_config_settings_view_form
 msgid "Activity Statements"
-msgstr ""
+msgstr "Izpisi kartic"
 
 #. module: partner_statement
 #: model_terms:ir.ui.view,arch_db:partner_statement.res_config_settings_view_form
 msgid "Activity Statements show all transactions between two dates."
-msgstr ""
+msgstr "Izpisi kartic prikažejo vse transakcije v določenem obdobju."
 
 #. module: partner_statement
 #: model:ir.model.fields.selection,name:partner_statement.selection__activity_statement_wizard__aging_type__days
@@ -204,7 +248,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:partner_statement.selection__res_config_settings__default_aging_type__days
 #: model:ir.model.fields.selection,name:partner_statement.selection__statement_common_wizard__aging_type__days
 msgid "Age by Days"
-msgstr ""
+msgstr "Zapadlost po dnevih"
 
 #. module: partner_statement
 #: model:ir.model.fields.selection,name:partner_statement.selection__activity_statement_wizard__aging_type__months
@@ -213,7 +257,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:partner_statement.selection__res_config_settings__default_aging_type__months
 #: model:ir.model.fields.selection,name:partner_statement.selection__statement_common_wizard__aging_type__months
 msgid "Age by Months"
-msgstr ""
+msgstr "Zapadlost po mesecih"
 
 #. module: partner_statement
 #: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__aging_type
@@ -222,27 +266,27 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_statement.field_res_config_settings__default_aging_type
 #: model:ir.model.fields,field_description:partner_statement.field_statement_common_wizard__aging_type
 msgid "Aging Method"
-msgstr ""
+msgstr "Metoda zapadlosti"
 
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 msgid "Aging Report at %(end)s in %(currency)s"
-msgstr ""
+msgstr "Poročilo o odprtih postavkah na %(end)s v %(currency)s"
 
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/report_statement_common.py:0
 msgid "Aging Report at %(ending_date)s in %(currency)s"
-msgstr ""
+msgstr "Poročilo o zapadlosti na %(ending_date)s v %(currency)s"
 
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
 msgid "Applied Amount"
-msgstr ""
+msgstr "Uporabljen znesek"
 
 #. module: partner_statement
 #. odoo-python
@@ -250,19 +294,19 @@ msgstr ""
 #: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_balance
 msgid "Balance"
-msgstr ""
+msgstr "Stanje"
 
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/activity_statement_xlsx.py:0
 #: model_terms:ir.ui.view,arch_db:partner_statement.activity_balance
 msgid "Balance Forward"
-msgstr ""
+msgstr "Prenos stanja"
 
 #. module: partner_statement
 #: model_terms:ir.ui.view,arch_db:partner_statement.statement_common_view
 msgid "Cancel"
-msgstr ""
+msgstr "Prekliči"
 
 #. module: partner_statement
 #: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__company_id
@@ -270,12 +314,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_statement.field_outstanding_statement_wizard__company_id
 #: model:ir.model.fields,field_description:partner_statement.field_statement_common_wizard__company_id
 msgid "Company"
-msgstr ""
+msgstr "Družba"
 
 #. module: partner_statement
 #: model:ir.model,name:partner_statement.model_res_config_settings
 msgid "Config Settings"
-msgstr ""
+msgstr "Nastavitve"
 
 #. module: partner_statement
 #: model:ir.model.fields,field_description:partner_statement.field_activity_statement_wizard__create_uid
