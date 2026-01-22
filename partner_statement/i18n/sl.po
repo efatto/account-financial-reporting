@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-01-22 17:09+0000\n"
+"PO-Revision-Date: 2026-01-22 19:50+0000\n"
 "Last-Translator: Matjaz Mozetic <matjaz@luxim.si>\n"
 "Language-Team: none\n"
 "Language: sl\n"
@@ -714,19 +714,19 @@ msgstr "Prikaži le postavke, ki zapadejo pred izbranim datumom"
 #. module: partner_statement
 #: model:ir.model,name:partner_statement.model_statement_common
 msgid "Statement Reports Common"
-msgstr ""
+msgstr "Običajni izpisi"
 
 #. module: partner_statement
 #: model:ir.model,name:partner_statement.model_statement_common_wizard
 msgid "Statement Reports Common Wizard"
-msgstr ""
+msgstr "Čarovnik za običajne izpise"
 
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/activity_statement.py:0
 msgid ""
 "Statement between %(starting_date)s and %(ending_date)s in %(currency)s"
-msgstr ""
+msgstr "Izpis med %(starting_date)s in %(ending_date)s v %(currency)s"
 
 #. module: partner_statement
 #. odoo-python
@@ -734,14 +734,14 @@ msgstr ""
 #: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
 #: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 msgid "Statement from:"
-msgstr ""
+msgstr "Izpis od:"
 
 #. module: partner_statement
 #: model_terms:ir.ui.view,arch_db:partner_statement.activity_statement_document
 #: model_terms:ir.ui.view,arch_db:partner_statement.detailed_activity_statement_document
 #: model_terms:ir.ui.view,arch_db:partner_statement.outstanding_statement_document
 msgid "Statement of Account"
-msgstr ""
+msgstr "Konto kartica"
 
 #. module: partner_statement
 #. odoo-python
@@ -749,7 +749,7 @@ msgstr ""
 #: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
 #: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 msgid "Statement of Account from %s"
-msgstr ""
+msgstr "Izpis konto kartice od %s"
 
 #. module: partner_statement
 #. odoo-python
@@ -757,25 +757,25 @@ msgstr ""
 #: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
 #: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 msgid "Statement to:"
-msgstr ""
+msgstr "Izpis do:"
 
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/outstanding_statement.py:0
 msgid "Statement up to %(ending_date)s in %(currency)s"
-msgstr ""
+msgstr "Izpis do %(ending_date)s v %(currency)s"
 
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/detailed_activity_statement.py:0
 msgid "Supplier Ending Balance up to %(ending_date)s in %(currency)s"
-msgstr ""
+msgstr "Končno stanje dobavitelja na %(ending_date)s v %(currency)s"
 
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/detailed_activity_statement.py:0
 msgid "Supplier Prior Balance up to %(ending_date)s in %(currency)s"
-msgstr ""
+msgstr "Prejšnje stanje dobavitelja na %(ending_date)s v %(currency)s"
 
 #. module: partner_statement
 #. odoo-python
@@ -784,28 +784,29 @@ msgid ""
 "Supplier Statement between %(starting_date)s and %(ending_date)s in "
 "%(currency)s"
 msgstr ""
+"Izpis dobavitelja med %(starting_date)s in %(ending_date)s v %(currency)s"
 
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/outstanding_statement.py:0
 msgid "Supplier Statement up to %(ending_date)s in %(currency)s"
-msgstr ""
+msgstr "Izpis dobavitelja do %(ending_date)s v %(currency)s"
 
 #. module: partner_statement
 #. odoo-python
 #: code:addons/partner_statement/report/report_statement_common.py:0
 msgid "Total"
-msgstr ""
+msgstr "Skupaj"
 
 #. module: partner_statement
 #: model:res.groups,name:partner_statement.group_activity_statement
 msgid "Use activity statements"
-msgstr ""
+msgstr "Uporabi detajlne IOP"
 
 #. module: partner_statement
 #: model:res.groups,name:partner_statement.group_outstanding_statement
 msgid "Use outstanding statements"
-msgstr ""
+msgstr "Uporabi detajlne IOP"
 
 #. module: partner_statement
 #. odoo-python
@@ -813,14 +814,14 @@ msgstr ""
 #: code:addons/partner_statement/report/detailed_activity_statement_xlsx.py:0
 #: code:addons/partner_statement/report/outstanding_statement_xlsx.py:0
 msgid "VAT:"
-msgstr ""
+msgstr "DDV:"
 
 #. module: partner_statement
 #: model_terms:ir.ui.view,arch_db:partner_statement.statement_common_view
 msgid "View"
-msgstr ""
+msgstr "Prikaz"
 
 #. module: partner_statement
 #: model_terms:ir.ui.view,arch_db:partner_statement.statement_common_view
 msgid "or"
-msgstr ""
+msgstr "ali"
