@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-21 15:05+0000\n"
 "PO-Revision-Date: 2026-05-26 15:46+0000\n"
-"Last-Translator: QuiqueOBO <enriqueotero@aldahotels.com>\n"
+"Last-Translator: Oso Tranquilo <osotranquilo@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,6 @@ msgstr ""
 #. module: account_financial_report
 #. odoo-python
 #: code:addons/account_financial_report/report/journal_ledger_xlsx.py:0
-#, fuzzy
 msgid "%s"
 msgstr "%s"
 
@@ -841,7 +840,7 @@ msgstr "Moneda Extranjera"
 #. module: account_financial_report
 #: model_terms:ir.ui.view,arch_db:account_financial_report.general_ledger_wizard
 msgid "Format"
-msgstr ""
+msgstr "Formato"
 
 #. module: account_financial_report
 #: model_terms:ir.ui.view,arch_db:account_financial_report.aged_partner_balance_wizard
@@ -1112,7 +1111,7 @@ msgstr "Diarios"
 #: model:ir.model.fields,field_description:account_financial_report.field_trial_balance_report_wizard__label_text_limit
 #: model:ir.model.fields,field_description:account_financial_report.field_vat_report_wizard__label_text_limit
 msgid "Label Text Limit"
-msgstr ""
+msgstr "Límite de texto de la etiqueta"
 
 #. module: account_financial_report
 #: model:ir.model.fields,field_description:account_financial_report.field_account_age_report_configuration__write_uid
